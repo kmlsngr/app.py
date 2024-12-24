@@ -243,7 +243,7 @@ try:
     warnings.filterwarnings('ignore')
     
     # Model yolunu düzelt
-    model_path = "/Users/kemalsongur/Desktop/Masaüstü - Kemal's MacBook Pro/YZO/models"
+    model_path = "models"
     
     # Mevcut modelleri yükle
     with open(os.path.join(model_path, 'multinomial_nb_model.pkl'), 'rb') as f:
